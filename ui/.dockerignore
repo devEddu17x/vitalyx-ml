@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+release_evidences.json
+dist
+.git
+.env
+.env.*
+!.env.example
+npm-debug.log*

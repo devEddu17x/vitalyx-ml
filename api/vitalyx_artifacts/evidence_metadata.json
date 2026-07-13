@@ -1,0 +1,2788 @@
+{
+  "E_91": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a fever (either felt or measured with a thermometer)?",
+    "is_antecedent": false
+  },
+  "E_55": {
+    "data_type": "M",
+    "allowed_values": [
+      "V_100",
+      "V_101",
+      "V_102",
+      "V_103",
+      "V_104",
+      "V_105",
+      "V_106",
+      "V_108",
+      "V_109",
+      "V_110",
+      "V_111",
+      "V_113",
+      "V_114",
+      "V_115",
+      "V_116",
+      "V_117",
+      "V_118",
+      "V_119",
+      "V_120",
+      "V_121",
+      "V_122",
+      "V_123",
+      "V_124",
+      "V_125",
+      "V_126",
+      "V_127",
+      "V_128",
+      "V_129",
+      "V_130",
+      "V_131",
+      "V_132",
+      "V_133",
+      "V_134",
+      "V_135",
+      "V_136",
+      "V_137",
+      "V_139",
+      "V_14",
+      "V_140",
+      "V_141",
+      "V_142",
+      "V_143",
+      "V_144",
+      "V_145",
+      "V_146",
+      "V_147",
+      "V_148",
+      "V_149",
+      "V_15",
+      "V_150",
+      "V_151",
+      "V_152",
+      "V_153",
+      "V_155",
+      "V_158",
+      "V_159",
+      "V_16",
+      "V_160",
+      "V_162",
+      "V_163",
+      "V_164",
+      "V_165",
+      "V_166",
+      "V_167",
+      "V_168",
+      "V_169",
+      "V_17",
+      "V_170",
+      "V_171",
+      "V_172",
+      "V_173",
+      "V_174",
+      "V_175",
+      "V_176",
+      "V_177",
+      "V_178",
+      "V_18",
+      "V_185",
+      "V_186",
+      "V_187",
+      "V_188",
+      "V_189",
+      "V_19",
+      "V_190",
+      "V_194",
+      "V_195",
+      "V_197",
+      "V_20",
+      "V_21",
+      "V_22",
+      "V_23",
+      "V_24",
+      "V_25",
+      "V_26",
+      "V_27",
+      "V_28",
+      "V_29",
+      "V_30",
+      "V_31",
+      "V_32",
+      "V_33",
+      "V_34",
+      "V_35",
+      "V_36",
+      "V_37",
+      "V_38",
+      "V_39",
+      "V_40",
+      "V_41",
+      "V_42",
+      "V_43",
+      "V_44",
+      "V_45",
+      "V_46",
+      "V_47",
+      "V_48",
+      "V_49",
+      "V_50",
+      "V_51",
+      "V_52",
+      "V_53",
+      "V_54",
+      "V_55",
+      "V_56",
+      "V_57",
+      "V_58",
+      "V_59",
+      "V_60",
+      "V_61",
+      "V_62",
+      "V_63",
+      "V_64",
+      "V_65",
+      "V_66",
+      "V_67",
+      "V_68",
+      "V_69",
+      "V_70",
+      "V_72",
+      "V_73",
+      "V_74",
+      "V_75",
+      "V_76",
+      "V_77",
+      "V_78",
+      "V_79",
+      "V_80",
+      "V_81",
+      "V_82",
+      "V_83",
+      "V_84",
+      "V_85",
+      "V_87",
+      "V_88",
+      "V_89",
+      "V_90",
+      "V_91",
+      "V_92",
+      "V_93",
+      "V_94",
+      "V_95",
+      "V_96",
+      "V_97",
+      "V_98",
+      "V_99"
+    ],
+    "default_values": [
+      "V_123"
+    ],
+    "question": "Do you feel pain somewhere?",
+    "is_antecedent": false
+  },
+  "E_53": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have pain somewhere, related to your reason for consulting?",
+    "is_antecedent": false
+  },
+  "E_57": {
+    "data_type": "M",
+    "allowed_values": [
+      "V_100",
+      "V_101",
+      "V_102",
+      "V_103",
+      "V_104",
+      "V_105",
+      "V_106",
+      "V_108",
+      "V_109",
+      "V_110",
+      "V_111",
+      "V_113",
+      "V_114",
+      "V_115",
+      "V_116",
+      "V_117",
+      "V_118",
+      "V_119",
+      "V_120",
+      "V_121",
+      "V_122",
+      "V_123",
+      "V_124",
+      "V_125",
+      "V_126",
+      "V_127",
+      "V_128",
+      "V_129",
+      "V_130",
+      "V_131",
+      "V_132",
+      "V_133",
+      "V_134",
+      "V_135",
+      "V_136",
+      "V_137",
+      "V_139",
+      "V_14",
+      "V_140",
+      "V_141",
+      "V_142",
+      "V_143",
+      "V_144",
+      "V_145",
+      "V_146",
+      "V_147",
+      "V_148",
+      "V_149",
+      "V_15",
+      "V_150",
+      "V_151",
+      "V_152",
+      "V_153",
+      "V_155",
+      "V_158",
+      "V_159",
+      "V_16",
+      "V_160",
+      "V_162",
+      "V_163",
+      "V_164",
+      "V_165",
+      "V_166",
+      "V_167",
+      "V_168",
+      "V_169",
+      "V_17",
+      "V_170",
+      "V_171",
+      "V_172",
+      "V_173",
+      "V_174",
+      "V_175",
+      "V_176",
+      "V_177",
+      "V_178",
+      "V_18",
+      "V_185",
+      "V_186",
+      "V_187",
+      "V_188",
+      "V_189",
+      "V_19",
+      "V_190",
+      "V_194",
+      "V_195",
+      "V_197",
+      "V_20",
+      "V_21",
+      "V_22",
+      "V_23",
+      "V_24",
+      "V_25",
+      "V_26",
+      "V_27",
+      "V_28",
+      "V_29",
+      "V_30",
+      "V_31",
+      "V_32",
+      "V_33",
+      "V_34",
+      "V_35",
+      "V_36",
+      "V_37",
+      "V_38",
+      "V_39",
+      "V_40",
+      "V_41",
+      "V_42",
+      "V_43",
+      "V_44",
+      "V_45",
+      "V_46",
+      "V_47",
+      "V_48",
+      "V_49",
+      "V_50",
+      "V_51",
+      "V_52",
+      "V_53",
+      "V_54",
+      "V_55",
+      "V_56",
+      "V_57",
+      "V_58",
+      "V_59",
+      "V_60",
+      "V_61",
+      "V_62",
+      "V_63",
+      "V_64",
+      "V_65",
+      "V_66",
+      "V_67",
+      "V_68",
+      "V_69",
+      "V_70",
+      "V_72",
+      "V_73",
+      "V_74",
+      "V_75",
+      "V_76",
+      "V_77",
+      "V_78",
+      "V_79",
+      "V_80",
+      "V_81",
+      "V_82",
+      "V_83",
+      "V_84",
+      "V_85",
+      "V_87",
+      "V_88",
+      "V_89",
+      "V_90",
+      "V_91",
+      "V_92",
+      "V_93",
+      "V_94",
+      "V_95",
+      "V_96",
+      "V_97",
+      "V_98",
+      "V_99"
+    ],
+    "default_values": [
+      "V_123"
+    ],
+    "question": "Does the pain radiate to another location?",
+    "is_antecedent": false
+  },
+  "E_54": {
+    "data_type": "M",
+    "allowed_values": [
+      "V_11",
+      "V_112",
+      "V_154",
+      "V_161",
+      "V_179",
+      "V_180",
+      "V_181",
+      "V_182",
+      "V_183",
+      "V_184",
+      "V_191",
+      "V_192",
+      "V_193",
+      "V_196",
+      "V_198",
+      "V_71"
+    ],
+    "default_values": [
+      "V_11"
+    ],
+    "question": "Characterize your pain:",
+    "is_antecedent": false
+  },
+  "E_59": {
+    "data_type": "C",
+    "allowed_values": [
+      "0",
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "default_values": [
+      "0"
+    ],
+    "question": "How fast did the pain appear?",
+    "is_antecedent": false
+  },
+  "E_56": {
+    "data_type": "C",
+    "allowed_values": [
+      "0",
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "default_values": [
+      "0"
+    ],
+    "question": "How intense is the pain?",
+    "is_antecedent": false
+  },
+  "E_58": {
+    "data_type": "C",
+    "allowed_values": [
+      "0",
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "default_values": [
+      "0"
+    ],
+    "question": "How precisely is the pain located?",
+    "is_antecedent": false
+  },
+  "E_159": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Did you lose consciousness?",
+    "is_antecedent": false
+  },
+  "E_133": {
+    "data_type": "M",
+    "allowed_values": [
+      "V_100",
+      "V_101",
+      "V_102",
+      "V_103",
+      "V_104",
+      "V_105",
+      "V_106",
+      "V_108",
+      "V_109",
+      "V_110",
+      "V_111",
+      "V_113",
+      "V_114",
+      "V_115",
+      "V_116",
+      "V_117",
+      "V_118",
+      "V_119",
+      "V_120",
+      "V_121",
+      "V_122",
+      "V_123",
+      "V_124",
+      "V_125",
+      "V_126",
+      "V_127",
+      "V_128",
+      "V_129",
+      "V_130",
+      "V_131",
+      "V_132",
+      "V_133",
+      "V_134",
+      "V_135",
+      "V_136",
+      "V_137",
+      "V_139",
+      "V_14",
+      "V_140",
+      "V_141",
+      "V_142",
+      "V_143",
+      "V_144",
+      "V_145",
+      "V_146",
+      "V_147",
+      "V_148",
+      "V_149",
+      "V_15",
+      "V_150",
+      "V_151",
+      "V_152",
+      "V_153",
+      "V_155",
+      "V_158",
+      "V_159",
+      "V_16",
+      "V_160",
+      "V_162",
+      "V_163",
+      "V_164",
+      "V_165",
+      "V_166",
+      "V_167",
+      "V_168",
+      "V_169",
+      "V_17",
+      "V_170",
+      "V_171",
+      "V_172",
+      "V_173",
+      "V_174",
+      "V_175",
+      "V_176",
+      "V_177",
+      "V_178",
+      "V_18",
+      "V_185",
+      "V_186",
+      "V_187",
+      "V_188",
+      "V_189",
+      "V_19",
+      "V_190",
+      "V_194",
+      "V_195",
+      "V_197",
+      "V_20",
+      "V_21",
+      "V_22",
+      "V_23",
+      "V_24",
+      "V_25",
+      "V_26",
+      "V_27",
+      "V_28",
+      "V_29",
+      "V_30",
+      "V_31",
+      "V_32",
+      "V_33",
+      "V_34",
+      "V_35",
+      "V_36",
+      "V_37",
+      "V_38",
+      "V_39",
+      "V_40",
+      "V_41",
+      "V_42",
+      "V_43",
+      "V_44",
+      "V_45",
+      "V_46",
+      "V_47",
+      "V_48",
+      "V_49",
+      "V_50",
+      "V_51",
+      "V_52",
+      "V_53",
+      "V_54",
+      "V_55",
+      "V_56",
+      "V_57",
+      "V_58",
+      "V_59",
+      "V_60",
+      "V_61",
+      "V_62",
+      "V_63",
+      "V_64",
+      "V_65",
+      "V_66",
+      "V_67",
+      "V_68",
+      "V_69",
+      "V_70",
+      "V_72",
+      "V_73",
+      "V_74",
+      "V_75",
+      "V_76",
+      "V_77",
+      "V_78",
+      "V_79",
+      "V_80",
+      "V_81",
+      "V_82",
+      "V_83",
+      "V_84",
+      "V_85",
+      "V_87",
+      "V_88",
+      "V_89",
+      "V_90",
+      "V_91",
+      "V_92",
+      "V_93",
+      "V_94",
+      "V_95",
+      "V_96",
+      "V_97",
+      "V_98",
+      "V_99"
+    ],
+    "default_values": [
+      "V_123"
+    ],
+    "question": "Where is the affected region located?",
+    "is_antecedent": false
+  },
+  "E_129": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for?",
+    "is_antecedent": false
+  },
+  "E_130": {
+    "data_type": "C",
+    "allowed_values": [
+      "V_107",
+      "V_11",
+      "V_138",
+      "V_156",
+      "V_157",
+      "V_86"
+    ],
+    "default_values": [
+      "V_11"
+    ],
+    "question": "What color is the rash?",
+    "is_antecedent": false
+  },
+  "E_134": {
+    "data_type": "C",
+    "allowed_values": [
+      "0",
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "default_values": [
+      "0"
+    ],
+    "question": "How intense is the pain caused by the rash?",
+    "is_antecedent": false
+  },
+  "E_132": {
+    "data_type": "C",
+    "allowed_values": [
+      "0",
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "default_values": [
+      "0"
+    ],
+    "question": "Is the rash swollen?",
+    "is_antecedent": false
+  },
+  "E_136": {
+    "data_type": "C",
+    "allowed_values": [
+      "0",
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "default_values": [
+      "0"
+    ],
+    "question": "How severe is the itching?",
+    "is_antecedent": false
+  },
+  "E_135": {
+    "data_type": "C",
+    "allowed_values": [
+      "V_10",
+      "V_12"
+    ],
+    "default_values": [
+      "V_10"
+    ],
+    "question": "Is the lesion (or are the lesions) larger than 1cm?",
+    "is_antecedent": false
+  },
+  "E_131": {
+    "data_type": "C",
+    "allowed_values": [
+      "V_10",
+      "V_12"
+    ],
+    "default_values": [
+      "V_10"
+    ],
+    "question": "Do your lesions peel off?",
+    "is_antecedent": false
+  },
+  "E_154": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Is your skin much paler than usual?",
+    "is_antecedent": false
+  },
+  "E_155": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations?",
+    "is_antecedent": false
+  },
+  "E_210": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you recently thrown up blood or something resembling coffee beans?",
+    "is_antecedent": false
+  },
+  "E_140": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you recently had stools that were black (like coal)?",
+    "is_antecedent": false
+  },
+  "E_51": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had diarrhea or an increase in stool frequency?",
+    "is_antecedent": false
+  },
+  "E_75": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel like you are (or were) choking or suffocating?",
+    "is_antecedent": false
+  },
+  "E_89": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you constantly feel fatigued or do you have non-restful sleep?",
+    "is_antecedent": false
+  },
+  "E_114": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you more irritable or has your mood been very unstable recently?",
+    "is_antecedent": false
+  },
+  "E_82": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel lightheaded and dizzy or do you feel like you are about to faint?",
+    "is_antecedent": false
+  },
+  "E_148": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you feeling nauseous or do you feel like vomiting?",
+    "is_antecedent": false
+  },
+  "E_94": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had chills or shivers?",
+    "is_antecedent": false
+  },
+  "E_220": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have pain that is increased when you breathe in deeply?",
+    "is_antecedent": false
+  },
+  "E_161": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you recently had a loss of appetite or do you get full more quickly then usually?",
+    "is_antecedent": false
+  },
+  "E_179": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you noticed light red blood or blood clots in your stool?",
+    "is_antecedent": false
+  },
+  "E_162": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had an involuntary weight loss over the last 3 months?",
+    "is_antecedent": false
+  },
+  "E_173": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth?",
+    "is_antecedent": false
+  },
+  "E_33": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have pain that improves when you lean forward?",
+    "is_antecedent": false
+  },
+  "E_218": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have symptoms that are increased with physical exertion but alleviated with rest?",
+    "is_antecedent": false
+  },
+  "E_93": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have numbness, loss of sensation or tingling in the feet?",
+    "is_antecedent": false
+  },
+  "E_66": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you experiencing shortness of breath or difficulty breathing in a significant way?",
+    "is_antecedent": false
+  },
+  "E_163": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had any vaginal discharge?",
+    "is_antecedent": false
+  },
+  "E_30": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel your abdomen is bloated or distended (swollen due to pressure from inside)?",
+    "is_antecedent": false
+  },
+  "E_127": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel that your eyes produce excessive tears?",
+    "is_antecedent": false
+  },
+  "E_181": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have nasal congestion or a clear runny nose?",
+    "is_antecedent": false
+  },
+  "E_88": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long?",
+    "is_antecedent": false
+  },
+  "E_43": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you lost consciousness associated with violent and sustained muscle contractions or had an absence episode?",
+    "is_antecedent": false
+  },
+  "E_156": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had weakness or paralysis on one side of the face, which may still be present or completely resolved?",
+    "is_antecedent": false
+  },
+  "E_144": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have diffuse (widespread) muscle pain?",
+    "is_antecedent": false
+  },
+  "E_216": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have pain that is increased with movement?",
+    "is_antecedent": false
+  },
+  "E_201": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a cough?",
+    "is_antecedent": false
+  },
+  "E_217": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are your symptoms worse when lying down and alleviated while sitting up?",
+    "is_antecedent": false
+  },
+  "E_215": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have symptoms that get worse after eating?",
+    "is_antecedent": false
+  },
+  "E_64": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel out of breath with minimal physical effort?",
+    "is_antecedent": false
+  },
+  "E_96": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you gained weight recently?",
+    "is_antecedent": false
+  },
+  "E_16": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel anxious?",
+    "is_antecedent": true
+  },
+  "E_50": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had significantly increased sweating?",
+    "is_antecedent": false
+  },
+  "E_97": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a sore throat?",
+    "is_antecedent": false
+  },
+  "E_9": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have swollen or painful lymph nodes?",
+    "is_antecedent": false
+  },
+  "E_76": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel slightly dizzy or lightheaded?",
+    "is_antecedent": false
+  },
+  "E_102": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you consulting because you have high blood pressure?",
+    "is_antecedent": true
+  },
+  "E_65": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have difficulty swallowing, or have a feeling of discomfort/blockage when swallowing?",
+    "is_antecedent": false
+  },
+  "E_74": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you noticed a diffuse (widespread) redness in one or both eyes?",
+    "is_antecedent": false
+  },
+  "E_205": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it?",
+    "is_antecedent": false
+  },
+  "E_63": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have difficulty articulating words/speaking?",
+    "is_antecedent": false
+  },
+  "E_128": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever felt like you were suffocating for a very short time associated with inability to breathe or speak?",
+    "is_antecedent": false
+  },
+  "E_190": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you noticed that you produce more saliva than usual?",
+    "is_antecedent": false
+  },
+  "E_39": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you felt confused or disorientated lately?",
+    "is_antecedent": false
+  },
+  "E_212": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you noticed that the tone of your voice has become deeper, softer or hoarse?",
+    "is_antecedent": false
+  },
+  "E_206": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have painful mouth ulcers or sores?",
+    "is_antecedent": false
+  },
+  "E_52": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have the perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision)?",
+    "is_antecedent": false
+  },
+  "E_203": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have intense coughing fits?",
+    "is_antecedent": false
+  },
+  "E_38": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have pain or weakness in your jaw?",
+    "is_antecedent": false
+  },
+  "E_172": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a hard time opening/raising one or both eyelids?",
+    "is_antecedent": false
+  },
+  "E_84": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel weakness in both arms and/or both legs?",
+    "is_antecedent": false
+  },
+  "E_90": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do your symptoms of muscle weakness increase with fatigue and/or stress?",
+    "is_antecedent": false
+  },
+  "E_211": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you vomited several times or have you made several efforts to vomit?",
+    "is_antecedent": false
+  },
+  "E_166": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Did you vomit after coughing?",
+    "is_antecedent": false
+  },
+  "E_112": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you wheeze while inhaling or is your breathing noisy after coughing spells?",
+    "is_antecedent": false
+  },
+  "E_178": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you noticed any unusual bleeding or bruising related to your consultation today?",
+    "is_antecedent": false
+  },
+  "E_152": {
+    "data_type": "M",
+    "allowed_values": [
+      "V_100",
+      "V_101",
+      "V_102",
+      "V_103",
+      "V_104",
+      "V_105",
+      "V_106",
+      "V_108",
+      "V_109",
+      "V_110",
+      "V_111",
+      "V_113",
+      "V_114",
+      "V_115",
+      "V_116",
+      "V_117",
+      "V_118",
+      "V_119",
+      "V_120",
+      "V_121",
+      "V_122",
+      "V_123",
+      "V_124",
+      "V_125",
+      "V_126",
+      "V_127",
+      "V_128",
+      "V_129",
+      "V_130",
+      "V_131",
+      "V_132",
+      "V_133",
+      "V_134",
+      "V_135",
+      "V_136",
+      "V_137",
+      "V_139",
+      "V_14",
+      "V_140",
+      "V_141",
+      "V_142",
+      "V_143",
+      "V_144",
+      "V_145",
+      "V_146",
+      "V_147",
+      "V_148",
+      "V_149",
+      "V_15",
+      "V_150",
+      "V_151",
+      "V_152",
+      "V_153",
+      "V_155",
+      "V_158",
+      "V_159",
+      "V_16",
+      "V_160",
+      "V_162",
+      "V_163",
+      "V_164",
+      "V_165",
+      "V_166",
+      "V_167",
+      "V_168",
+      "V_169",
+      "V_17",
+      "V_170",
+      "V_171",
+      "V_172",
+      "V_173",
+      "V_174",
+      "V_175",
+      "V_176",
+      "V_177",
+      "V_178",
+      "V_18",
+      "V_185",
+      "V_186",
+      "V_187",
+      "V_188",
+      "V_189",
+      "V_19",
+      "V_190",
+      "V_194",
+      "V_195",
+      "V_197",
+      "V_20",
+      "V_21",
+      "V_22",
+      "V_23",
+      "V_24",
+      "V_25",
+      "V_26",
+      "V_27",
+      "V_28",
+      "V_29",
+      "V_30",
+      "V_31",
+      "V_32",
+      "V_33",
+      "V_34",
+      "V_35",
+      "V_36",
+      "V_37",
+      "V_38",
+      "V_39",
+      "V_40",
+      "V_41",
+      "V_42",
+      "V_43",
+      "V_44",
+      "V_45",
+      "V_46",
+      "V_47",
+      "V_48",
+      "V_49",
+      "V_50",
+      "V_51",
+      "V_52",
+      "V_53",
+      "V_54",
+      "V_55",
+      "V_56",
+      "V_57",
+      "V_58",
+      "V_59",
+      "V_60",
+      "V_61",
+      "V_62",
+      "V_63",
+      "V_64",
+      "V_65",
+      "V_66",
+      "V_67",
+      "V_68",
+      "V_69",
+      "V_70",
+      "V_72",
+      "V_73",
+      "V_74",
+      "V_75",
+      "V_76",
+      "V_77",
+      "V_78",
+      "V_79",
+      "V_80",
+      "V_81",
+      "V_82",
+      "V_83",
+      "V_84",
+      "V_85",
+      "V_87",
+      "V_88",
+      "V_89",
+      "V_90",
+      "V_91",
+      "V_92",
+      "V_93",
+      "V_94",
+      "V_95",
+      "V_96",
+      "V_97",
+      "V_98",
+      "V_99"
+    ],
+    "default_values": [
+      "V_123"
+    ],
+    "question": "Where is the swelling located?",
+    "is_antecedent": false
+  },
+  "E_151": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have swelling in one or more areas of your body?",
+    "is_antecedent": false
+  },
+  "E_45": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been coughing up blood?",
+    "is_antecedent": false
+  },
+  "E_194": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you noticed a high pitched sound when breathing in?",
+    "is_antecedent": false
+  },
+  "E_83": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you noticed weakness in your facial muscles and/or eyes?",
+    "is_antecedent": false
+  },
+  "E_157": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you recently had numbness, loss of sensation or tingling, in both arms and legs and around your mouth?",
+    "is_antecedent": false
+  },
+  "E_176": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Did you previously, or do you currently, have any weakness/paralysis in one or more of your limbs or in your face?",
+    "is_antecedent": false
+  },
+  "E_42": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been in contact with or ate something that you have an allergy to?",
+    "is_antecedent": false
+  },
+  "E_214": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you noticed a wheezing sound when you exhale?",
+    "is_antecedent": false
+  },
+  "E_150": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been able to pass stools or gas since your symptoms increased?",
+    "is_antecedent": false
+  },
+  "E_32": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a decrease in appetite?",
+    "is_antecedent": false
+  },
+  "E_221": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are the symptoms or pain increased with coughing, with an effort like lifting a weight or from forcing a bowel movement?",
+    "is_antecedent": false
+  },
+  "E_202": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Does the person have a whooping cough?",
+    "is_antecedent": false
+  },
+  "E_219": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are your symptoms more prominent at night?",
+    "is_antecedent": false
+  },
+  "E_196": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had surgery within the last month?",
+    "is_antecedent": true
+  },
+  "E_170": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have severe itching in one or both eyes?",
+    "is_antecedent": false
+  },
+  "E_77": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a cough that produces colored or more abundant sputum than usual?",
+    "is_antecedent": false
+  },
+  "E_13": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you find that your symptoms have worsened over the last 2 weeks and that progressively less effort is required to cause the symptoms?",
+    "is_antecedent": false
+  },
+  "E_14": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have chest pain even at rest?",
+    "is_antecedent": false
+  },
+  "E_169": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Is your nose or the back of your throat itchy?",
+    "is_antecedent": false
+  },
+  "E_177": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body?",
+    "is_antecedent": false
+  },
+  "E_175": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today?",
+    "is_antecedent": false
+  },
+  "E_174": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been unintentionally losing weight or have you lost your appetite?",
+    "is_antecedent": false
+  },
+  "E_145": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have very abundant or very long menstruation periods?",
+    "is_antecedent": false
+  },
+  "E_92": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Did your cheeks suddenly turn red?",
+    "is_antecedent": false
+  },
+  "E_192": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side?",
+    "is_antecedent": false
+  },
+  "E_188": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have pale stools and dark urine?",
+    "is_antecedent": false
+  },
+  "E_164": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel your heart is beating very irregularly or in a disorganized pattern?",
+    "is_antecedent": false
+  },
+  "E_193": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have annoying muscle spasms in your face, neck or any other part of your body?",
+    "is_antecedent": false
+  },
+  "E_168": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have trouble keeping your tongue in your mouth?",
+    "is_antecedent": false
+  },
+  "E_180": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you unable to control the direction of your eyes?",
+    "is_antecedent": false
+  },
+  "E_67": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have bouts of choking or shortness of breath that wake you up at night?",
+    "is_antecedent": false
+  },
+  "E_78": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you drink alcohol excessively or do you have an addiction to alcohol?",
+    "is_antecedent": true
+  },
+  "E_146": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you taking any new oral anticoagulants ((NOACs)?",
+    "is_antecedent": true
+  },
+  "E_171": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel like you are detached from your own body or your surroundings?",
+    "is_antecedent": false
+  },
+  "E_111": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you feel like you are dying or were you afraid that you were about do die?",
+    "is_antecedent": false
+  },
+  "E_182": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have greenish or yellowish nasal discharge?",
+    "is_antecedent": false
+  },
+  "E_103": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you lost your sense of smell?",
+    "is_antecedent": false
+  },
+  "E_23": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you ever temporarily stop breathing while you’re asleep?",
+    "is_antecedent": false
+  },
+  "E_105": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had a heart attack or do you have angina (chest pain)?",
+    "is_antecedent": true
+  },
+  "E_108": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a problem with poor circulation?",
+    "is_antecedent": true
+  },
+  "E_104": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have high blood pressure or do you take medications to treat high blood pressure?",
+    "is_antecedent": true
+  },
+  "E_79": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you smoke cigarettes?",
+    "is_antecedent": true
+  },
+  "E_71": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have high cholesterol or do you take medications to treat high cholesterol?",
+    "is_antecedent": true
+  },
+  "E_41": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been in contact with a person with similar symptoms in the past 2 weeks?",
+    "is_antecedent": true
+  },
+  "E_100": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you currently take hormones?",
+    "is_antecedent": true
+  },
+  "E_69": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have diabetes?",
+    "is_antecedent": true
+  },
+  "E_167": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you think you are pregnant or are you currently pregnant?",
+    "is_antecedent": true
+  },
+  "E_115": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had unprotected sex with more than one partner in the last 6 months?",
+    "is_antecedent": true
+  },
+  "E_70": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you significantly overweight compared to people of the same height as you?",
+    "is_antecedent": true
+  },
+  "E_10": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you currently taking or have you recently taken anti-inflammatory drugs (NSAIDs)?",
+    "is_antecedent": true
+  },
+  "E_165": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have any of your family members ever had a pneumothorax?",
+    "is_antecedent": true
+  },
+  "E_8": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you currently undergo dialysis?",
+    "is_antecedent": true
+  },
+  "E_25": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have any of your family members been diagnosed with cluster headaches?",
+    "is_antecedent": true
+  },
+  "E_184": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you take medication that dilates your blood vessels?",
+    "is_antecedent": true
+  },
+  "E_185": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had a head trauma?",
+    "is_antecedent": true
+  },
+  "E_99": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had a migraine or is a member of your family known to have migraines?",
+    "is_antecedent": true
+  },
+  "E_107": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had a stroke?",
+    "is_antecedent": true
+  },
+  "E_226": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you more likely to develop common allergies than the general population?",
+    "is_antecedent": true
+  },
+  "E_62": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you regularly take stimulant drugs?",
+    "is_antecedent": true
+  },
+  "E_49": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you attend or work in a daycare?",
+    "is_antecedent": true
+  },
+  "E_95": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have Parkinson’s disease?",
+    "is_antecedent": true
+  },
+  "E_204": {
+    "data_type": "C",
+    "allowed_values": [
+      "V_0",
+      "V_1",
+      "V_10",
+      "V_13",
+      "V_2",
+      "V_3",
+      "V_4",
+      "V_5",
+      "V_6",
+      "V_7",
+      "V_8",
+      "V_9"
+    ],
+    "default_values": [
+      "V_10"
+    ],
+    "question": "Have you traveled out of the country in the last 4 weeks?",
+    "is_antecedent": true
+  },
+  "E_37": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have metastatic cancer?",
+    "is_antecedent": true
+  },
+  "E_153": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you being treated for osteoporosis?",
+    "is_antecedent": true
+  },
+  "E_124": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have asthma or have you ever had to use a bronchodilator in the past?",
+    "is_antecedent": true
+  },
+  "E_98": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a hiatal hernia?",
+    "is_antecedent": true
+  },
+  "E_116": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had a cold in the last 2 weeks?",
+    "is_antecedent": true
+  },
+  "E_48": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you live with 4 or more people?",
+    "is_antecedent": true
+  },
+  "E_2": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you infected with the human immunodeficiency virus (HIV)?",
+    "is_antecedent": true
+  },
+  "E_227": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you immunosuppressed?",
+    "is_antecedent": true
+  },
+  "E_61": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you currently using intravenous drugs?",
+    "is_antecedent": true
+  },
+  "E_47": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you suffer from Crohn’s disease or ulcerative colitis (UC)?",
+    "is_antecedent": true
+  },
+  "E_27": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had a sexually transmitted infection?",
+    "is_antecedent": true
+  },
+  "E_143": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you exercise regularly, 4 times per week or more?",
+    "is_antecedent": true
+  },
+  "E_191": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you a former smoker?",
+    "is_antecedent": true
+  },
+  "E_208": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Is your BMI less than 18.5, or are you underweight?",
+    "is_antecedent": true
+  },
+  "E_126": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have liver cirrhosis?",
+    "is_antecedent": true
+  },
+  "E_189": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had sexual intercourse with an HIV-positive partner in the past 12 months?",
+    "is_antecedent": true
+  },
+  "E_7": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a poor diet?",
+    "is_antecedent": true
+  },
+  "E_24": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had a diagnosis of anemia?",
+    "is_antecedent": true
+  },
+  "E_26": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have any family members who have been diagnosed with anemia?",
+    "is_antecedent": true
+  },
+  "E_113": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have chronic kidney failure?",
+    "is_antecedent": true
+  },
+  "E_160": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Were you born prematurely or did you suffer any complication at birth?",
+    "is_antecedent": true
+  },
+  "E_28": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are there any members of your family who have been diagnosed myasthenia gravis?",
+    "is_antecedent": true
+  },
+  "E_20": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have Rheumatoid Arthritis?",
+    "is_antecedent": true
+  },
+  "E_80": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever been diagnosed with depression?",
+    "is_antecedent": true
+  },
+  "E_40": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been in contact with someone who has had pertussis (whoooping cough)?",
+    "is_antecedent": true
+  },
+  "E_0": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you recently had a viral infection?",
+    "is_antecedent": true
+  },
+  "E_1": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you currently being treated or have you recently been treated with an oral antibiotic for an ear infection?",
+    "is_antecedent": true
+  },
+  "E_34": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have an active cancer?",
+    "is_antecedent": true
+  },
+  "E_209": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are your vaccinations up to date?",
+    "is_antecedent": true
+  },
+  "E_139": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a known heart defect?",
+    "is_antecedent": true
+  },
+  "E_19": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been diagnosed with hyperthyroidism?",
+    "is_antecedent": true
+  },
+  "E_31": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have severe Chronic Obstructive Pulmonary Disease (COPD)?",
+    "is_antecedent": true
+  },
+  "E_22": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a known issue with one of your heart valves?",
+    "is_antecedent": true
+  },
+  "E_60": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you consume energy drinks regularly?",
+    "is_antecedent": true
+  },
+  "E_35": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you regularly drink coffee or tea?",
+    "is_antecedent": true
+  },
+  "E_213": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you recently taken decongestants or other substances that may have stimulant effects?",
+    "is_antecedent": true
+  },
+  "E_12": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a known severe food allergy?",
+    "is_antecedent": true
+  },
+  "E_44": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you take corticosteroids?",
+    "is_antecedent": true
+  },
+  "E_4": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you or any member of your family ever had croup?",
+    "is_antecedent": true
+  },
+  "E_81": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you suffer from chronic anxiety?",
+    "is_antecedent": true
+  },
+  "E_109": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had deep vein thrombosis (DVT)?",
+    "is_antecedent": true
+  },
+  "E_110": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been unable to move or get up for more than 3 consecutive days within the last 4 weeks?",
+    "is_antecedent": true
+  },
+  "E_17": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you of Asian descent?",
+    "is_antecedent": true
+  },
+  "E_18": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have cystic fibrosis?",
+    "is_antecedent": true
+  },
+  "E_118": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had pneumonia?",
+    "is_antecedent": true
+  },
+  "E_123": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a chronic obstructive pulmonary disease (COPD)?",
+    "is_antecedent": true
+  },
+  "E_207": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you live in in a big city?",
+    "is_antecedent": true
+  },
+  "E_86": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have any close family members who suffer from allergies (any type), hay fever or eczema?",
+    "is_antecedent": true
+  },
+  "E_87": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have any family members who have asthma?",
+    "is_antecedent": true
+  },
+  "E_141": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Did you have your first menstrual period before the age of 12?",
+    "is_antecedent": true
+  },
+  "E_11": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you breastfed one of your children for more than 9 months?",
+    "is_antecedent": true
+  },
+  "E_186": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever been diagnosed with obstructive sleep apnea (OSA)?",
+    "is_antecedent": true
+  },
+  "E_106": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have heart failure?",
+    "is_antecedent": true
+  },
+  "E_158": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Were you diagnosed with endocrine disease or a hormone dysfunction?",
+    "is_antecedent": true
+  },
+  "E_187": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Did you eat dark-fleshed fish (such as tuna) or Swiss cheese before the reaction occurred?",
+    "is_antecedent": true
+  },
+  "E_6": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have chronic pancreatitis?",
+    "is_antecedent": true
+  },
+  "E_125": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever been diagnosed with gastroesophageal reflux?",
+    "is_antecedent": true
+  },
+  "E_21": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had a spontaneous pneumothorax?",
+    "is_antecedent": true
+  },
+  "E_222": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are you exposed to secondhand cigarette smoke on a daily basis?",
+    "is_antecedent": true
+  },
+  "E_15": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you started or taken any antipsychotic medication within the last 7 days?",
+    "is_antecedent": true
+  },
+  "E_147": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been treated in hospital recently for nausea, agitation, intoxication or aggressive behavior and received medication via an intravenous or intramuscular route?",
+    "is_antecedent": true
+  },
+  "E_137": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had surgery to remove lymph nodes?",
+    "is_antecedent": true
+  },
+  "E_149": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you take a calcium channel blockers (medication)?",
+    "is_antecedent": true
+  },
+  "E_197": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a known kidney problem resulting in an inability to retain proteins?",
+    "is_antecedent": true
+  },
+  "E_3": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had a pericarditis?",
+    "is_antecedent": true
+  },
+  "E_29": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do any members of your immediate family have a psychiatric illness?",
+    "is_antecedent": true
+  },
+  "E_225": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have close family members who had a cardiovascular disease problem before the age of 50?",
+    "is_antecedent": true
+  },
+  "E_73": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "In the last month, have you been in contact with anyone infected with the Ebola virus?",
+    "is_antecedent": true
+  },
+  "E_138": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you suffer from fibromyalgia?",
+    "is_antecedent": true
+  },
+  "E_101": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been hospitalized for an asthma attack in the past year?",
+    "is_antecedent": true
+  },
+  "E_46": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had 2 or more asthma attacks in the past year?",
+    "is_antecedent": true
+  },
+  "E_119": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you been diagnosed with chronic sinusitis?",
+    "is_antecedent": true
+  },
+  "E_72": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you had one or several flare ups of chronic obstructive pulmonary disease (COPD) in the past year?",
+    "is_antecedent": true
+  },
+  "E_198": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you work in agriculture?",
+    "is_antecedent": true
+  },
+  "E_200": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you work in the mining sector?",
+    "is_antecedent": true
+  },
+  "E_199": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you work in construction?",
+    "is_antecedent": true
+  },
+  "E_121": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have a deviated nasal septum?",
+    "is_antecedent": true
+  },
+  "E_120": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have polyps in your nose?",
+    "is_antecedent": true
+  },
+  "E_142": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Does your mother suffer from asthma?",
+    "is_antecedent": true
+  },
+  "E_195": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you live in the suburbs?",
+    "is_antecedent": true
+  },
+  "E_183": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you live in a rural area?",
+    "is_antecedent": true
+  },
+  "E_224": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Do you have family members who have had lung cancer?",
+    "is_antecedent": true
+  },
+  "E_223": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Are there members of your family who have been diagnosed with pancreatic cancer?",
+    "is_antecedent": true
+  },
+  "E_5": {
+    "data_type": "B",
+    "allowed_values": [],
+    "default_values": [
+      "0"
+    ],
+    "question": "Have you ever had fluid in your lungs?",
+    "is_antecedent": true
+  }
+}

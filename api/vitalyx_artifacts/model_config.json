@@ -1,0 +1,28 @@
+{
+  "model_name": "Vitalyx final E01",
+  "configuration": {
+    "experiment_id": "E01_final",
+    "hidden_layers": [
+      512,
+      256,
+      128
+    ],
+    "use_bias": [
+      false,
+      false,
+      true
+    ],
+    "dropout": [
+      0.3,
+      0.25,
+      0.2
+    ],
+    "learning_rate": 0.001,
+    "batch_size": 512
+  },
+  "n_parameters": 672561,
+  "seed": 42,
+  "dataset_version": "ddxplus-english-v2",
+  "feature_count": 975,
+  "class_count": 49
+}

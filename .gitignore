@@ -19,6 +19,9 @@ downloads/
 eggs/
 .eggs/
 lib/
+# Frontend source modules are application code, not Python build artifacts.
+!ui/src/lib/
+!ui/src/lib/*.ts
 lib64/
 parts/
 sdist/

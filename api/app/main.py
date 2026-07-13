@@ -7,10 +7,11 @@ from contextlib import asynccontextmanager
 from typing import Literal
 
 from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.artifacts import ArtifactLoadError, load_artifacts
 from app.logging_config import configure_logging
-from app.schemas import EvidenceCatalogResponse, EvidenceItem, FriendlyPredictionRequest, PathologyCatalogResponse, PathologyItem, PredictionResponse, RawPredictionRequest
+from app.schemas import ACADEMIC_NOTICE, EvidenceCatalogResponse, EvidenceItem, FriendlyPredictionRequest, PathologyCatalogResponse, PathologyItem, PredictionResponse, RawPredictionRequest
 from app.services import EvidenceTokenAdapter, InputValidationError, PredictionService, TYPE_NAMES
 from app.settings import Settings
 
@@ -43,6 +44,14 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 def service_or_503(request: Request) -> PredictionService:
     service = request.app.state.prediction_service
@@ -68,7 +77,7 @@ def ready(request: Request) -> dict[str, int | bool | str]:
 def model_information(request: Request) -> dict[str, object]:
     bundle = service_or_503(request).bundle
     policy = bundle.inference_policy
-    return {"name": bundle.model_config["model_name"], "feature_count": bundle.model_config["feature_count"], "class_count": bundle.model_config["class_count"], "low_confidence_threshold": policy["low_confidence_threshold"], "valid_age_range": policy["valid_age_range"], "accepted_sexes": policy["accepted_sexes"], "disclaimer": policy["disclaimer"]}
+    return {"name": bundle.model_config["model_name"], "feature_count": bundle.model_config["feature_count"], "class_count": bundle.model_config["class_count"], "low_confidence_threshold": policy["low_confidence_threshold"], "valid_age_range": policy["valid_age_range"], "accepted_sexes": policy["accepted_sexes"], "disclaimer": ACADEMIC_NOTICE}
 
 
 @app.get("/api/v1/evidences", response_model=EvidenceCatalogResponse, tags=["Catalogs"])

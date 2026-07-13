@@ -10,6 +10,7 @@ import numpy as np
 from scipy import sparse
 
 from app.artifacts import ArtifactBundle
+from app.schemas import ACADEMIC_NOTICE
 
 
 logger = logging.getLogger(__name__)
@@ -174,7 +175,7 @@ class PredictionService:
             "confidence": {"maximum_probability": maximum_probability, "low_confidence": maximum_probability < threshold, "threshold": threshold},
             "input_summary": {"age": float(age), "sex": str(sex), "answer_count": len(tokens), "generated_token_count": len(tokens)},
             "model": {"name": str(self.bundle.model_config["model_name"])},
-            "disclaimer": str(self.bundle.inference_policy["disclaimer"]),
+            "disclaimer": ACADEMIC_NOTICE,
         }
         logger.info("inference_completed", extra={"event": "inference_completed", "duration_ms": round((time.perf_counter() - started) * 1000, 2), "generated_token_count": len(tokens), "low_confidence": response["confidence"]["low_confidence"]})
         return response

@@ -15,6 +15,7 @@ class Settings:
     log_level: str
     artifacts_path: Path
     app_env: str
+    cors_origins: tuple[str, ...]
 
     @classmethod
     def from_environment(cls) -> "Settings":
@@ -23,4 +24,5 @@ class Settings:
             log_level=os.getenv("LOG_LEVEL", "INFO").upper(),
             artifacts_path=Path(os.getenv("ARTIFACTS_PATH", "/app/vitalyx_artifacts")),
             app_env=os.getenv("APP_ENV", "production"),
+            cors_origins=tuple(origin.strip() for origin in os.getenv("CORS_ORIGINS", "http://localhost:5173,https://vitalyx.eddux.dev").split(",") if origin.strip()),
         )

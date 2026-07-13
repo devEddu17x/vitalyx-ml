@@ -1,0 +1,26 @@
+{
+  "model_version": "Vitalyx final E01",
+  "preprocessing_version": "metadata-ddxplus-v2",
+  "disclaimer": "Modelo entrenado con pacientes sintéticos; resultado académico y orientativo. No constituye un diagnóstico médico.",
+  "low_confidence_threshold": 0.9999996423721313,
+  "valid_age_range": {
+    "min": 0.0,
+    "max": 109.0
+  },
+  "accepted_sexes": [
+    "F",
+    "M"
+  ],
+  "n_features": 975,
+  "n_classes": 49,
+  "ethics": {
+    "academic_use_only": true,
+    "synthetic_patients_only": true,
+    "not_medical_diagnosis": true,
+    "no_automatic_clinical_decision": true,
+    "monitor_by_sex_age_and_pathology_frequency": true,
+    "minority_pathology_monitoring": true,
+    "external_clinical_validation_required_before_real_use": true,
+    "bias_statement": "No se afirma ausencia de sesgos; se mantienen mitigaciones preventivas y monitoreo continuo."
+  }
+}

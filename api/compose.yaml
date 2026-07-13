@@ -1,0 +1,17 @@
+services:
+  vitalyx-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${PORT:-8000}:8000"
+    environment:
+      PORT: "8000"
+      LOG_LEVEL: "INFO"
+      ARTIFACTS_PATH: "/app/vitalyx_artifacts"
+      APP_ENV: "production"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
